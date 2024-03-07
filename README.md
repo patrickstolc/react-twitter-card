@@ -9,7 +9,7 @@ This is a simple example of how to use Server Sent Events to push updates to a c
 
 ## How it works
 
-Assuming you have the backend running from [this repo](https://github.com/patrickstolc/distributed-counter), with the default configuration, you can open the Reach app using the following URL
+Assuming you have the backend running from [this repo](https://github.com/patrickstolc/distributed-counter), with the default configuration, you can open the React app using the following URL
 
 ```bash
 http://localhost:5173/?userId={userId}
