@@ -1,0 +1,27 @@
+.tweet {
+    &-card {
+        @apply bg-slate-800 p-4 rounded-lg w-5/12;
+    }
+    &-header {
+        @apply flex items-center gap-4;
+
+        img {
+            @apply w-12 h-12 rounded-full;
+        }
+
+        &-user {
+            @apply flex flex-col gap-1;
+        }
+
+        &-username {
+            @apply text-gray-100 font-bold;
+        }
+
+        &-handle {
+            @apply text-gray-400;
+        }
+    }
+    &-body {
+        @apply text-lg text-gray-200 text-left my-4 leading-relaxed;
+    }
+}

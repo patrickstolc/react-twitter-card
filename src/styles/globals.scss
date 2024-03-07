@@ -1,0 +1,12 @@
+@import "variables";
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+    @apply bg-slate-950 flex flex-col items-center justify-center h-screen w-screen;
+}

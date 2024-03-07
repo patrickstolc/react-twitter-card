@@ -1,0 +1,10 @@
+.like-button {
+    @apply cursor-pointer;
+
+    &[data-liked="true"] {
+        @apply text-red-500;
+    }
+    &[data-liked="false"] {
+        @apply text-gray-400;
+    }
+}
